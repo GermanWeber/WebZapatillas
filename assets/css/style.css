@@ -39,8 +39,17 @@ background: rgb(172, 164, 144);
   text-align: center;
 }
 /* ----------------------------------------------------- */
-/*------------------- HEADER --------------------------- */
+/*------------------- IMAGEN HEADER --------------------------- */
+.imagen{
+  transition: .3s ease-in-out;
+ filter: drop-shadow(1px 1px 20px yellow);
+}
 
+.imagen:hover{
+  transform: scale(120%);
+  transition: .3s ease-in-out;
+  filter: drop-shadow(1px 1px 20px black);
+}
 
 
 
