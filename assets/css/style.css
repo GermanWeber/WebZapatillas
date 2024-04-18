@@ -3,22 +3,18 @@
   padding: 0;
 }
 
+/*--------------------- Cards ------------------------*/
+.card{
+  margin: 10px;
+}
 .card img{
   width: 300px;
 }
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .container-card{
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
   grid-template-rows: 1fr 1fr 1fr;
-  margin: 10px;
-  
+  margin: 30px;
 }
 .container-card form,
 .container-card img,
@@ -27,7 +23,13 @@
   padding: 0 ;
   text-align: center;
 }
+/* ----------------------------------------------------- */
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 ul {
   list-style: none;
