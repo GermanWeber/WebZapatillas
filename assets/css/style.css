@@ -195,13 +195,13 @@ ul {
   height: 4rem;
   text-align: center;
   text-decoration: none;
-  color: rgb(180, 180, 180);
+  color: rgb(1, 65, 91);
   font-size: 150%;
 }
 
 .lista-hamburgesa:hover {
 
-  color: white;
+  color: rgb(255, 144, 46);
   filter: brightness(150%);
 
 }
