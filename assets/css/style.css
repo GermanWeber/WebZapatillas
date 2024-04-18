@@ -205,6 +205,29 @@ ul {
     align-items: center;
   }
 
+  .contenedor-producto {
+    margin-top: 40px;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    background-color: white;
+    display: grid; 
+    grid-template-columns: 1fr ;
+    grid-template-rows: 40px 1fr 1fr 1fr 1fr 1fr 1fr ;
+    gap: 5px;
+
+    grid-template-areas:
+  
+    "nav "
+    "nom "
+    "img "
+    "pre "
+    "cod"
+    "btn "
+    "lit "
+    "det "    
+  ;
+  }
 }
 
 .footer {
