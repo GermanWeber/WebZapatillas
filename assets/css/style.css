@@ -1,5 +1,10 @@
-.card {
-  margin: .4rem;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.card img{
+  width: 300px;
 }
 
 .container {
@@ -7,6 +12,22 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.container-card{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 10px;
+  
+}
+.container-card form,
+.container-card img,
+.container-card h3,
+.container-card p{
+  padding: 0 ;
+  text-align: center;
+}
+
 
 ul {
   list-style: none;
@@ -220,60 +241,6 @@ ul {
 .barra {
   height: 2rem;
 }
-
-.fondo-color {
-  background-color: #212529;
-}
-
-.fondo-color1 {
-  background-color: #2125291f;
-}
-
-.fondo-color2 {
-  background-color: #343a408f;
-}
-
-.fondo-color3 {
-  background-color: #495057;
-}
-
-.fondo-color4 {
-  background-color: #6c757d;
-}
-
-.fondo-color5 {
-  background-color: #adb5bd;
-}
-
-.fondo-color6 {
-  background-color: rgb(6, 132, 6);
-}
-
-.fondo-color7 {
-  background-color: white;
-}
-
-
-.fondo-imagen {
-  background-image: url(../img/naturaleza.jpeg);
-  background-size: cover;
-}
-
-.fondo-imagen2 {
-  background-image: url(../img/arbol-fondo.jpg);
-  background-size: cover;
-}
-
-.fondo-imagen3 {
-  background-image: url(../img/fondo-mar.jpg);
-  background-size: cover;
-}
-
-.fondo-imagen4 {
-  background-image: url(../img/cielo.jpg);
-  background-size: cover;
-}
-
 
 
 .pinturas img {
