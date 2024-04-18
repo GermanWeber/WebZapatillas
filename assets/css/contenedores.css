@@ -7,7 +7,7 @@
     padding: 20px;
     display: grid; 
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 40px auto 1fr auto auto 1fr 1fr 1fr;
+    grid-template-rows: 40px auto 1fr auto auto 1fr;
     gap: 5px;
 
     grid-template-areas:
@@ -17,7 +17,6 @@
     "img cod"
     "img pre"
     "lit btn"
-    "det nada"
     "det nada"
   ;
   }

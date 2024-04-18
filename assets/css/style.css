@@ -48,7 +48,7 @@ background: rgb(172, 164, 144);
 
 }
 .card img{
-  width: 250px;
+  width: 100%;
 }
 .container-card{
   display: grid;
