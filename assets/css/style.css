@@ -2,7 +2,22 @@
   margin: 0;
   padding: 0;
 }
-
+/* ---------- colores logo -------------- */
+.color-fondo-1{
+background: rgb(255, 144, 46);
+}
+.color-fondo-2{
+background: rgb(1, 65, 91);
+}
+.color-fondo-3{
+background: rgb(31, 227, 243);
+}
+.color-fondo-4{
+background: rgb(1, 24, 46);
+}
+.color-fondo-5{
+background: rgb(172, 164, 144);
+}
 /*--------------------- Cards ------------------------*/
 .card{
   margin: 10px;
@@ -24,6 +39,10 @@
   text-align: center;
 }
 /* ----------------------------------------------------- */
+/*------------------- HEADER --------------------------- */
+
+
+
 
 .container {
   display: flex;
@@ -67,13 +86,7 @@ ul {
 
 }
 
-.style-enunciado {
-  font-size: 250%;
-  text-decoration: dotted;
 
-  background: linear-gradient(to right, #212529e0, #2125297c, #21252900);
-  color: #adb5bd;
-}
 
 /* imagen con texto encima */
 .contenedor {
