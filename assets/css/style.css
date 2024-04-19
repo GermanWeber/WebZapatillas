@@ -193,18 +193,17 @@ background: rgb(172, 164, 144);
   justify-content: start;
   margin-left: 140px;
   width: 200rem;
-  height: 4rem;
+  height: 3rem;
   text-align: center;
   text-decoration: none;
   color: rgb(1, 65, 91);
-  font-size: 150%;
+  font-size: 180%;
 }
 
 .lista-hamburgesa:hover {
 
   color: rgb(255, 144, 46);
-  filter: brightness(150%);
-
+  border-bottom: 1px solid black;
 }
 
 .blanco {

@@ -15,35 +15,94 @@
 </head>
 
 <body class="fondo-imagen">
-  <!--nav-->
-  <!--nav-->
-
-  <div class="container-fluid color-fondo-4 ">
-    <ul class="flex derecha mb-0">
-      <li><a target="_blank" href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
-          class="ms-2 fab fa-youtube-square desaparecer"> </li></a>
-      <li><a href="" class="ms-2 fab fa-whatsapp-square desaparecer"> </li></a>
-      <li><a href="" class="ms-2 fab fa-facebook-square desaparecer"> </li></a>
-      <li><a href="" class="ms-2 fab fa-twitter-square desaparecer"> </li></a>
-      <li><a href="" class="ms-2 fas fa-gear"> </li></a>
-      <li><a href="" class="ms-2 fas fa-address-card"> </li></a>
-      <li><a href="./login.html" class="ms-2 fas fa-user"></li></a>
+   <!-- MINI NAV -->
+   <div class="container-fluid color-fondo-4 ">
+    <ul class="flex derecha mb-0 sin-puntos ">
+      <li><a href="" class="ms-2 d-2 fab fa-whatsapp"> </li></a>
+      <li><a href="" class="ms-2 fab fa-facebook-f"> </li></a>
+      <li><a href="" class="ms-2 fab fa-twitter"> </li></a>
+      <li><a href="" class="ms-2 fab fa-youtube"> </li></a>
+      
     </ul>
   </div>
 
-  <nav class="fondo-nav">
+  <!-- nav escondido -->
+
+  <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="">
+    <div class="color-fondo-1 p-4 gg">
+      
+      <div class="color-fondo-1" id="">
+
+        <ul class=" mb-0 px-0 fondo-color1  sacar-puntos">
+
+          <li class="nav-item dropdown  text-white">
+            <form class="flex centra me-1" role="search">
+              <input class="form-control me-4" type="search" placeholder="busca..." aria-label="Search">
+              <button class="boton-ver fab fa-searchengin" type="submit"></button> 
+              
+              <a id="user" href="./login.html" class="ms-2 fas fa-user me-5 nav-link linkesito boton-ver" aria-expanded="false"></a>    
+            </form>
+          </li>
+  
+          <li class="nav-item dropdown lista px-0 text-white">
+            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <strong>Productos</strong>
+            </a>
+            <ul class="dropdown-menu fondo-color mt-3 px-0 transicion-derecha">
+              <li><a class="lista-hamburgesa " href="#">Nuevo</a></li>
+              <li><a class="lista-hamburgesa" href="#">Todos</a></li>
+              <li><a class="lista-hamburgesa" href="#">Mas vendidos</a></li>
+            </ul>
+          </li>
+  
+          <li class="nav-item dropdown lista text-white">
+            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <strong>Marcas</strong>
+            </a>
+            <ul class="dropdown-menu fondo-color mt-3 px-0 transicion-derecha">
+              <li><a class=" lista-hamburgesa" href="./adiddas.html">Adiddas</a></li>
+              <li><a class=" lista-hamburgesa" href="./nike.html">Nike</a></li>
+              <li><a class="lista-hamburgesa" href="#">Under Armor</a></li>
+              <li><a class="lista-hamburgesa" href="#">Converse</a></li>
+  
+            </ul>
+          </li>
+          <li class="nav-item dropdown lista text-white">
+            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <strong>Nosotros</strong>
+            </a>
+            <ul class="dropdown-menu fondo-color mt-3 transicion-derecha">
+              <li><a class="lista-hamburgesa" href="#">Quienes somos</a></li>
+              <li><a class="lista-hamburgesa" href="#">Puntos de venta</a></li>
+              <li><a class="lista-hamburgesa" href="#">Contactanos</a></li>
+  
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark color-fondo-1 gg">
+    <div class="container-fluid gg">
+      <img src="assets/img/4.png" class="imagen" height="200px" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
 
     <!------------------------ Nav --------------------------------->
+  <nav class="desaparecer">  
     <div class="color-fondo-1" id="">
 
       <ul class="flex centra separa mb-0 px-0 fondo-color1 cambio-columna sacar-puntos">
 
-        <li class="fondo-color1 desaparecer"> <a class="me-5" href="./index.html"><img
-              src="assets/img/4.png" class="imagen" height="100px" alt="logo"></a></li>
+        <li class="fondo-color1 desaparecer"> <a class="me-5" href="./index.html">
+          <img src="assets/img/4.png" class="imagen" height="200px" alt="logo"></a></li>
 
         <li class="nav-item dropdown lista px-0 text-white">
-          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <strong>P</strong>roductos
+          <a class="nav-link linkesito" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <strong>Productos</strong>
           </a>
           <ul class="dropdown-menu fondo-color mt-3 px-0 transicion-derecha">
             <li><a class="lista-hamburgesa " href="#">Nuevo</a></li>
@@ -53,8 +112,8 @@
         </li>
 
         <li class="nav-item dropdown lista text-white">
-          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <strong>C</strong>ategorias
+          <a class="nav-link linkesito" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <strong>Marcas</strong>
           </a>
           <ul class="dropdown-menu fondo-color mt-3 px-0 transicion-derecha">
             <li><a class=" lista-hamburgesa" href="./adiddas.html">Adiddas</a></li>
@@ -65,25 +124,29 @@
           </ul>
         </li>
         <li class="nav-item dropdown lista text-white">
-          <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <strong>N</strong>osotros
+          <a class="nav-link linkesito" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <strong>Nosotros</strong>
           </a>
           <ul class="dropdown-menu fondo-color mt-3 transicion-derecha">
             <li><a class="lista-hamburgesa" href="#">Quienes somos</a></li>
             <li><a class="lista-hamburgesa" href="#">Puntos de venta</a></li>
-            <li><a class="lista-hamburgesa" href="#">Materias primas</a></li>
             <li><a class="lista-hamburgesa" href="#">Contactanos</a></li>
 
           </ul>
         </li>
-        <form class="flex centra me-4" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="boton-ver fab fa-searchengin" type="submit"></button>
-        </form>
+        <li class="nav-item dropdown  text-white">
+          <form class="flex centra me-1" role="search">
+            <input class="form-control me-2" type="search" placeholder="busca..." aria-label="Search">
+            <button class="boton-ver fab fa-searchengin" type="submit"></button>
+            <a id="user" href="./login.html" class="ms-2 fas fa-user me-5 nav-link linkesito boton-ver" aria-expanded="false"></a>    
+          </form>
+        </li>
 
       </ul>
     </div>
   </nav>
+
+  <!-- fin nav -->
 
 
   
