@@ -151,21 +151,21 @@ background: rgb(172, 164, 144);
   border: 1px solid black;
 }
 
-.transicion-derecha {}
+
 
 .transicion-derecha :hover {
   transition: .3s ease-in-out;
   transform: translateX(5px);
 }
 
-.transicion-abajo {}
+
 
 .transicion-abajo :hover {
   transition: .3s ease-in-out;
   transform: translateY(5px);
 }
 
-.transicion-arriba {}
+
 
 .transicion-arriba :hover {
   transition: .3s ease-in-out;
