@@ -185,3 +185,40 @@
     background-color: white;
   
   }
+
+
+  /* contenedor de lista */
+
+.contenedor-lista{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr 1fr;
+  background-color: white;
+  grid-template-areas:
+
+  "nad mar mar mar "
+  "fil pro pro pro "
+  "fil pro pro pro "
+  "fil pro pro pro "
+}
+
+
+.contenedor-lista .marca{
+
+  grid-area: mar;
+  height: 100%;
+  background-color: white;
+}
+
+.contenedor-lista .filtro{
+  grid-area: fil;
+  height: 100%;
+  background-color: white;
+}
+
+.contenedor-lista .productos{
+
+  grid-area: pro;
+  height: 100%;
+  background-color: white;
+}
